@@ -1,0 +1,43 @@
+body{
+    background-color: #ffffcc;
+}
+.nav li{
+    display: inline-block;
+    padding: 16px;
+}
+
+.nav li a{
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 0px 24px;
+    text-transform: uppercase;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:bisque ;
+    z-index: 1;
+    display: flex;
+}
+
+.nav li:hover{
+    background-color: #333;
+}
+
+.nav li:hover a{
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.nav2{
+    text-align: right;
+}
